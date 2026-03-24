@@ -1,0 +1,99 @@
+---
+---
+
+$header-bg-color: #3F128B;
+$header-bg-color-secondary: #4B15A5;
+$header-heading-color: #FFFFFF;
+$section-headings-color: #4F00FF;
+$code-bg-color: #F4F0FF;
+$code-text-color: #333;
+
+@import "{{ site.theme }}";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(45deg, #FDFAFF 0px, #FDFAFF 10px, #FCFAFF 10px, #FCFAFF 20px); 
+  color: #333;
+  font: lighter 16px "Noto Sans JP", sans-serif;
+}
+
+a {
+  color: #5B00FF;
+}
+
+a:hover {
+  color: inherit;
+  background: #F2ECFF;
+  border-bottom: 1px solid #9800FF;
+}
+
+.site-footer {
+  border-top: 1px solid #D1D1D1;
+  background-color: transparent;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+::selection {
+  background: #D9CCFF;
+  color: #333;
+}
+
+.btn,
+.btn:hover{
+  text-transform: uppercase;
+}
+
+.btn {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.btn::after {
+}   
+
+hr {
+  background-color: #CF77FF !important;
+  height: 1px !important;
+  border: 0 !important;
+}
+
+.page-header {
+  position: relative;
+  z-index: 9998;
+}
+
+#btn-to-top {
+  display: none;
+  user-select: none;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #5824FF;
+  color: #FFFFFF;
+  padding: 14px 20px;
+  border-radius: 100%;
+  transition: 0.2s;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+#btn-to-top:hover {
+  color: #FFFFFF;
+  outline: #4100C7 solid 2px;
+  outline-offset: 2px;
+  background-color: #5E2CC7;
+}
