@@ -1,0 +1,20 @@
+title: Zenith Almador
+description: Normal Sites >.<
+show_downloads: false
+hide_github: true
+
+collections:
+  blog:
+    output: true
+    permalink: /:title/
+
+buttons:
+  - text: ""
+    href: "https://github.com/zenithnyan/zenithnyan.github.io/"
+
+remote_theme: pages-themes/cayman
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+url: https://zenithnyan.github.io
