@@ -9,7 +9,7 @@ title: Yahoo!
 <br />
 
 <div align="right">
-<a href="./tempest/">Next →</a>
+<a href="./ㅤ/">Next →</a>
 </div>
 
 <a onclick="topFunction()" id="btn-to-top"><i class="fa-solid fa-caret-up"></i></a>
