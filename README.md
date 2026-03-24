@@ -1,2 +1,1 @@
-# zenithnyan.github.io
-CURIOUS?
+# NORMAL SITES
