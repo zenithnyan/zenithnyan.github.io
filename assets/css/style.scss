@@ -1,11 +1,11 @@
 ---
 ---
 
-$header-bg-color: #7F128B;
-$header-bg-color-secondary: #9115A5;
+$header-bg-color: #36128B;
+$header-bg-color-secondary: #3D15A5;
 $header-heading-color: #FFFFFF;
-$section-headings-color: #CF00FF;
-$code-bg-color: #FCF0FF;
+$section-headings-color: #4700FF;
+$code-bg-color: #F4F0FF;
 $code-text-color: #333;
 
 @import "{{ site.theme }}";
@@ -25,7 +25,7 @@ body {
 }
 
 a {
-  color: #CC00FF;
+  color: #5200FF;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ a:hover {
 }
 
 ::selection {
-  background: #F6CCFF;
+  background: #DCCCFF;
   color: #333;
 }
 
@@ -81,7 +81,7 @@ hr {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #D924FF;
+  background-color: #5924FF;
   color: #FFFFFF;
   padding: 14px 20px;
   border-radius: 100%;
@@ -92,7 +92,7 @@ hr {
 
 #btn-to-top:hover {
   color: #FFFFFF;
-  outline: #AD2CC7 solid 2px;
+  outline: #572CC7 solid 2px;
   outline-offset: 2px;
-  background-color: #AD2CC7;
+  background-color: #572CC7;
 }
