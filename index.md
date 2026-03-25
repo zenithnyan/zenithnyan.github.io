@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Yahoo!
+title: Zenith Almador
 ---
 
 # Test
