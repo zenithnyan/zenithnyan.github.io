@@ -1,13 +1,13 @@
 ---
 layout: default
-title: New Text
+title: Archive
 ---
 
 # Posts
 
 ![Banner](https://capsule-render.vercel.app/api?type=Waving&color=timeGradient&height=300&animation=fadeIn&section=header&text=Archive&fontSize=100)
 
-New Text
+Everything started and is stored here. The beginning of civilisation, of all the tales told on this blog.
 
 <ul>
   {% for post in site.blog %}
