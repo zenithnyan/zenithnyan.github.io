@@ -17,5 +17,11 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      hide_header: false
+
 url: https://zenithnyan.github.io
 baseurl: ""
