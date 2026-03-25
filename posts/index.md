@@ -3,11 +3,11 @@ layout: default
 title: Archive
 ---
 
-# Articles
+# Postingan
 
 ![Banner](https://capsule-render.vercel.app/api?type=Waving&color=timeGradient&height=300&animation=fadeIn&section=header&text=Archive&fontSize=100)
 
-Semua era berawal dari sini!
+Semua era dimulai dari halaman ini.
 
 <ul>
   {% for post in site.blog %}
