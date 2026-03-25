@@ -1,5 +1,5 @@
 title: Zenith Almador
-description: Normal Sites >.<
+description: T_T
 show_downloads: false
 hide_github: true
 
@@ -18,3 +18,4 @@ plugins:
   - jekyll-seo-tag
 
 url: https://zenithnyan.github.io
+baseurl: ""
