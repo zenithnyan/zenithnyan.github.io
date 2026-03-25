@@ -7,7 +7,7 @@ title: Archive
 
 ![Banner](https://capsule-render.vercel.app/api?type=Waving&color=timeGradient&height=300&animation=fadeIn&section=header&text=Archive&fontSize=100)
 
-Everything started and is stored here. The beginning of civilisation, of all the tales told on this blog.
+Semua era berawal dari sini!
 
 <ul>
   {% for post in site.blog %}
