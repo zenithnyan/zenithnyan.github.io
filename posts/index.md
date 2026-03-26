@@ -7,7 +7,7 @@ title: Zenith Almador
 
 ![Banner](https://capsule-render.vercel.app/api?type=Waving&color=timeGradient&height=300&animation=fadeIn&section=header&text=Archive&fontSize=100)
 
-Semua era dimulai dari halaman ini.
+_Di sinilah segala cerita dimulai, satu klik dari ide, satu langkah menuju dampak._
 
 <ul>
   {% for post in site.blog %}
